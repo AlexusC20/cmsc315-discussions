@@ -181,12 +181,5 @@ def main():
     demonstrate_namespaces()
     demonstrate_copying()
 
-
-    print("\nTODO: Create and test your parent object")
-
-    print("\nTODO: Create and test your child object")
-
-
-
 if __name__ == "__main__":
     main()

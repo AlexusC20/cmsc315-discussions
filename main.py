@@ -34,8 +34,6 @@ class ChildClass(ParentClass):
         return info
 
 # demonstration of the classes
-if __name__ == "__main__":
-    main() 
 def main():
     # Create an instance of the parent class
     parent_instance = ParentClass("Parent Task", is_done=False)
@@ -49,3 +47,5 @@ def main():
     child_instance.mark_done()
     child_instance.display_info()
 
+if __name__ == "__main__":
+    main() 
